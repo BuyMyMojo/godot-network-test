@@ -1,0 +1,24 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="NetworkingTest"
+config/description="Enter an interesting project description here!"
+run/main_scene="uid://dokpuags3k7nh"
+config/features=PackedStringArray("4.4")
+run/low_processor_mode=true
+config/icon="res://icon.png"
+
+[display]
+
+window/size/viewport_width=1600
+window/size/viewport_height=900
+window/stretch/mode="canvas_items"
